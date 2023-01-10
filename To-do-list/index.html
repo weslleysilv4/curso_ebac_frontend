@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Lista de Tarefas</h1>
+        <form action="">
+            <label for="tarefa"></label>
+            <input type="text" name="tarefa" id="task-name" placeholder="Digite a tarefa" required>
+            <button type="submit">Adicionar</button>
+            <button type="reset" id="btn-cancel">Cancelar</button>
+        </form>
+        <ul id="tasks">
+        </ul>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="https://kit.fontawesome.com/60125727cb.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
