@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ## Crie um formulário de cadastro, este formulário deverá conter os campos: 
+        nome completo, e-mail, telefone, CPF, endereço completo e CEP; 
+    ## Utilize o plugin jQueryMaskPlugin para aplicar máscara aos campos de CPF e CEP; 
+    ## Crie uma branchchamada exercício_plugins_jqueryno repositório do curso e 
+    nos envie o link através da plataforma. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário Cadastro</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="form">
+                <h1>Formulário de Cadastro</h1>
+                <form action="" id="form-x">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" class="dados-tabble" name="nome" id="name" placeholder="Digite seu nome" >
+                    
+                    <label for="e-mail">E-mail:</label>
+                    <input type="email"class="dados-tabble"  name="email" id="email" placeholder="Digite seu melhor e-mail">
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" nclass="dados-tabble" ame="telefone" id="tel">
+                    
+                    <label for="CPF">CPF:</label>
+                    <input type="text" class="dados-tabble" name="cpf" id="cpf">
+
+                    <label for="address" id="address">Endereço Completo:</label>
+                    <input type="text" class="dados-tabble" name="address" id="">
+
+                    <label for="CEP">CEP:</label>
+                    <input type="text" class="dados-tabble" name="cep" id="cep">
+                    
+                    <div id="buttons">
+                        <button type="submit" id="submit">Cadastrar</button>
+                        <button type="reset">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="/src/jquery.validate.min.js"></script>
+<script src="src/jquery.mask.min.js"></script>
+<script src="/src/messages_pt_BR.js"></script>
+<script src="src/main.js"></script>
+
+</body>
+</html>
