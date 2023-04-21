@@ -24,7 +24,7 @@ $(document).ready(function () {
             submitHandler: function() {
                 alert("Usuário cadastrado");
             },
-            invalidHandler: function(event, validator){
+            invalidHandler: function(validator){
                 let error = validator.numberOfInvalids();
                 if(error){
                     alert(`Existem ${error} campos incorretos`)
